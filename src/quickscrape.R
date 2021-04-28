@@ -1,4 +1,5 @@
 library(rvest)
+library(dplyr)
 
 if(Sys.info()[4]=="LZ2626UTPURUCKE"){
   root_dir <- file.path("c:", "git", "quickscrape")
